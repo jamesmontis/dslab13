@@ -1,0 +1,3 @@
+"D:\CLion 2020.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\dslab13.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\dslab13.dir/objects.a @CMakeFiles\dslab13.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\dslab13.dir/objects.a -Wl,--no-whole-archive  -o dslab13.exe -Wl,--out-implib,libdslab13.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\dslab13.dir\linklibs.rsp
